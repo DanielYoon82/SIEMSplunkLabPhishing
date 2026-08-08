@@ -1,19 +1,57 @@
-<h1>Home Lab - SIEM Using Splunk</h1>
+<h1>Home Lab - Splunk SIEM | Phishing Alert Investigation</h1>
 
-<h2>Description</h2>
-Here I demonstrate using the Tryhackme VM triaging, investigate using Splunk, and documenting an incident for false positive phishing attempt.
+<h3>Project Overview</h3>
+This home lab demonstrates the use of Splunk as a Security Information and Event Management (SIEM) platform to investigate and triage a suspected phishing alert.<br />
 <br />
- 
+Using a simulated security incident from a TryHackMe lab environment, I analyzed alert information, correlated email and event data in Splunk, reviewed sender and recipient details, investigated a suspicious URL, and documented the final determination as a false positive.<br />
+<br />
+The lab demonstrates a structured approach to security alert triage, investigation, evidence analysis, and incident documentation.  
+<br />
 
-<h2>Environments Used </h2>
+<h3>Architecture & Investigation Workflow</h3>
+<p align="center">
+<img src="https://github.com/DanielYoon82/SIEMSplunkLabPhishing/blob/main/image/SplunkSiemDiagram.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
+</p>
+<br /> 
 
-- <b>VM and Splunk</b>
 
-<h2>Program walk-through:</h2>
+<h3>Objectives</h3>
+
+- Practice security alert triage using Splunk
+- Investigate a suspected phishing attempt
+- Correlate information from multiple sources
+- Analyze timestamps, sender, recipient, and URL information
+- Determine whether an alert represents a legitimate threat or false positive
+- Document investigation findings and conclusions
+
+<h3>Environment </h3>
+- Splunk
+- TryHackMe Lab Environment
+- Simulated phishing alert
+- Email and security event data
+
+<h3>Skills Demonstrated </h3>
+- SIEM Investigation
+- Security Alert Triage
+- Phishing Investigation
+- Event Correlation
+- Log Analysis
+- Evidence-Based Investigation
+- False Positive Identification
+- Incident Documentation
+- Security Operations Workflow
 
 
-- <b>Ticket Assignment, Investigation, and Documentation</b> <br />
-Alert is assigned. 
+<h2>Security Incident Scenario</h2>
+
+<h3>Alert </h3>
+
+A security alert is assigned for investigation after an email is identified as a potential phishing attempt.<br />
+<br />
+The alert is categorized as Medium severity, requiring investigation to determine whether the email represents a legitimate security threat or a false positive.
+
+<h2>Step 1 – Alert Assignment and Initial Triage</h2>
+
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/SIEMSplunkLabs/blob/main/image/SplunkSiem1.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
