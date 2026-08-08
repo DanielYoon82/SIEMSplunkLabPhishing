@@ -139,7 +139,7 @@ After reviewing the available evidence, the investigation did not identify suffi
 
 <h3>Finding</h3>
 
-**Classification: False Positive**
+**Classification: False Positive**<br />
 
 The alert was determined to be a false positive based on the available evidence reviewed during the investigation.
 
