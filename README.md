@@ -27,6 +27,7 @@ The lab demonstrates a structured approach to security alert triage, investigati
 - Document investigation findings and conclusions
 
 <h3>Environment </h3>
+
 - Splunk
 - TryHackMe Lab Environment
 - Simulated phishing alert
