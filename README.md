@@ -34,6 +34,7 @@ The lab demonstrates a structured approach to security alert triage, investigati
 - Email and security event data
 
 <h3>Skills Demonstrated </h3>
+
 - SIEM Investigation
 - Security Alert Triage
 - Phishing Investigation
@@ -65,6 +66,7 @@ The alert is assigned for investigation and reviewed to determine the severity, 
 - Began the investigation using Splunk
 
 <h3>Investigation Focus</h3>
+
 - Alert timestamp
 - Sender information
 - Recipient information
