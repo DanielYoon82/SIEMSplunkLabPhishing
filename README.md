@@ -173,4 +173,5 @@ The alert was determined to be a false positive based on the available evidence 
 This lab demonstrates a structured approach to security alert investigation using Splunk. The investigation involved reviewing a suspected phishing alert, correlating event information, validating email details, investigating a URL, and documenting the final determination.<br />
 <br />
 The project demonstrates foundational SOC and security analyst skills, including SIEM investigation, alert triage, log analysis, evidence correlation, false positive identification, and incident documentation.
-
+<br />
+<br />
