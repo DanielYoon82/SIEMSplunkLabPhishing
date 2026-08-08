@@ -5,10 +5,12 @@ This home lab demonstrates the use of Splunk as a Security Information and Event
 <br />
 Using a simulated security incident from a TryHackMe lab environment, I analyzed alert information, correlated email and event data in Splunk, reviewed sender and recipient details, investigated a suspicious URL, and documented the final determination as a false positive.<br />
 <br />
-The lab demonstrates a structured approach to security alert triage, investigation, evidence analysis, and incident documentation.  
+The lab demonstrates a structured approach to security alert triage, investigation, evidence analysis, and incident documentation.
+</p>
 <br />
 
 <h3>Architecture & Investigation Workflow</h3>
+<br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/SIEMSplunkLabPhishing/blob/main/image/SplunkSiemDiagram.jpg" height="95%" width="95%" alt="Disk Sanitization Steps"/>
 </p>
@@ -51,14 +53,29 @@ A security alert is assigned for investigation after an email is identified as a
 The alert is categorized as Medium severity, requiring investigation to determine whether the email represents a legitimate security threat or a false positive.
 
 <h2>Step 1 – Alert Assignment and Initial Triage</h2>
+The alert is assigned for investigation and reviewed to determine the severity, alert type, and available evidence.
+
+<h3>Actions Performed</h3>
+
+- Reviewed the assigned security alert
+- Identified the alert as a potential phishing attempt
+- Confirmed the alert severity as Medium
+- Reviewed the available incident information
+- Began the investigation using Splunk
+
+<h3>Investigation Focus</h3>
+- Alert timestamp
+- Sender information
+- Recipient information
+- Email details
+- Suspicious URL
+- Related security events
 
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/SIEMSplunkLabs/blob/main/image/SplunkSiem1.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
-<br /> 
-
-Queue indicates medium severity and possible phishing attempt. <br />
+<br />
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/SIEMSplunkLabs/blob/main/image/SplunkSiem2.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
