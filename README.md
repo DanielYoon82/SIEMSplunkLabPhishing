@@ -85,31 +85,91 @@ The alert is assigned for investigation and reviewed to determine the severity, 
 </p>
 <br />
 
-Splunk investigation data matches timestamp and sender information. <br />
+<h2>Step 2 – Investigate Alert Data in Splunk</h2>
+Splunk was used to investigate the event and correlate information associated with the reported phishing attempt.
+
+<h3>Actions Performed</h3>
+
+- Searched relevant event data in Splunk
+- Compared event timestamps with the reported email
+- Reviewed sender information
+- Reviewed recipient information
+- Correlated the available event information with the original alert
+<br />
+The Splunk investigation produced data consistent with the timestamp and sender information associated with the reported email.
+
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/SIEMSplunkLabs/blob/main/image/SplunkSiem3.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-Company information confirms recipient and email that was targeted. <br />
+<h2>Step 3 – Validate Sender and Recipient Information</h2>
+
+<h3>Actions Performed</h3>
+
+- Reviewed the targeted recipient information
+- Compared sender information with the reported email
+- Verified the company and recipient details associated with the event
+- Correlated the information with the original security alert
+
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/SIEMSplunkLabs/blob/main/image/SplunkSiem4.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-URL in the email confirms in the tool that it is clean and not malicious. <br />
+<h2>Step 4 – Investigate the Suspicious URL</h2>
+The URL contained within the email was investigated to determine whether it represented a known malicious destination.
+
+<h3>Actions Performed</h3>
+
+- Extracted the URL associated with the email
+- Investigated the URL using the available security analysis tool
+- Reviewed the resulting reputation information
+- Determined that the URL was identified as clean/non-malicious within the lab environment
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/SIEMSplunkLabs/blob/main/image/SplunkSiem5.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-Email confirmed as a false positive noted with detailed documentation.  <br />
+<h2>Step 5 – Determine Incident Classification and Documentation</h2>
+After reviewing the available evidence, the investigation did not identify sufficient indicators of a malicious phishing attempt. The investigation findings were documented to maintain an accurate record of the alert, evidence reviewed, actions performed, and final determination.
+
+<h3>Finding</h3>
+
+**Classification: False Positive**
+The alert was determined to be a false positive based on the available evidence reviewed during the investigation.
+
+<h3>Evidence Reviewed</h3>
+
+- Alert severity
+- Email timestamp
+- Sender information
+- Recipient information
+- Splunk event data
+- URL reputation results
+- Company and email information
+
+<h3>Documentation Included</h3>
+
+- Initial alert details
+- Investigation steps
+- Splunk findings
+- Email and recipient information
+- URL investigation results
+- Final classification
+- Investigation conclusion
+
 <br />
 <p align="center">
 <img src="https://github.com/DanielYoon82/SIEMSplunkLabs/blob/main/image/SplunkSiem7.jpg" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
+
+<h2>Key Takeaways</h2>
+This lab demonstrates a structured approach to security alert investigation using Splunk. The investigation involved reviewing a suspected phishing alert, correlating event information, validating email details, investigating a URL, and documenting the final determination.<br />
+<br />
+The project demonstrates foundational SOC and security analyst skills, including SIEM investigation, alert triage, log analysis, evidence correlation, false positive identification, and incident documentation.
 
